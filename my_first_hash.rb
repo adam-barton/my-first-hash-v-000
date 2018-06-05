@@ -10,10 +10,9 @@ def shipping_manifest
   
   the_manifest["whale bone corsets"] = 5
   the_manifest["porcelain vases"] = 2 
-  the_manifest["oil paintings"] = 3 
-puts shipping_manifest
+  the_manifest["oil paintings"] = 3  
 end
-
+shipping_manifest
 
 def retrieval
   shipping_manifest = {
